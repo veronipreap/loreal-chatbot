@@ -12,7 +12,7 @@ const chatWindow = document.getElementById("chatWindow");
 
 
 // Cloudflare Worker endpoint - replace with your actual worker URL
-const WORKER_URL = "https://YOUR_PROJECT.YOUR_ACCOUNT.workers.dev";
+const WORKER_URL = "https://loreal-chatbot.vpreap1.workers.dev/";
 
 // Set initial message
 chatWindow.textContent = "👋 Hello! How can I help you today?";
